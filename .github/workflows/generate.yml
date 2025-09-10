@@ -11,7 +11,7 @@ jobs:
 
       - name: Fetch setup script
         run: |
-          curl -L -o setup_dogship.sh "https://raw.githubusercontent.com/Pethaulingusa/Pet-Hauling-USA/main/setup_dogship.sh" || true
+          chmod +x setup_dogship.sh
           if [ ! -s setup_dogship.sh ]; then
             echo "Paste the script into the repo root as setup_dogship.sh if this download fails."
             exit 1
