@@ -1,4 +1,4 @@
-name: Generate DogShip
+name: Generate Pet Haulers USA
 on:
   workflow_dispatch: {}   # run manually from Actions tab
 permissions:
