@@ -1,0 +1,29 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+.pnpm-debug.log
+
+# Expo / RN
+.expo/
+.expo-shared/
+
+# Build
+dist/
+build/
+web/.vite/
+web/.cache/
+*.zip
+
+# Env
+.env
+.env.*
+backend/.env
+web/.env
+
+# macOS
+.DS_Store
+
+# Logs
+logs
+*.log
